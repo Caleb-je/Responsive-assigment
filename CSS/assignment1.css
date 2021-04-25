@@ -1,0 +1,164 @@
+body{
+    font-weight: 400;
+    width: 100%;
+    min-height: 70vh;
+    background-image: 
+    url(bg-desktop.svg);
+    background-repeat:no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    color: white;
+    margin:  0;
+    padding: none;
+  }
+
+header img{
+ margin-left: 4em;
+ margin-top: 1em;
+  }    
+  
+.container{
+
+   width: 90%;
+   height: 70vh;
+   display: flex;
+   align-items: center;
+   padding: 10px;
+   margin-left: 4em;
+   margin-top: 3em;
+  }
+
+.list-1{
+  
+      width: 1100px;
+      height: 70vh;      
+  }
+
+.info{ 
+      margin-top: 2em;
+      width: 500px;
+      display: flex;
+      flex-flow: column wrap;  
+      height: 75vh;
+      padding-left: 50px;
+}
+h1{
+     font-weight: 600;
+     font-family: sans-serif;
+     font-size: 40px;
+  }
+p{
+    font-weight: 400;
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+  }
+
+.button{
+    margin-top: 1em;
+    font-size: 16px;
+    font-weight: 400;
+    color:hsl(257, 40%, 49%);
+    width: 200px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 3px 3px 10px black;
+    
+}
+.button:hover{
+    background: blueviolet;
+
+    }
+
+footer{
+   height: 20px;
+   padding: 1em;
+   text-align: right;
+   margin-right: 7em;
+}
+
+.fab{
+    color: white;
+    border: 1px solid white;
+    font-size: 25px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.fab:hover{
+    background: blueviolet
+
+}
+/* mobile screen */
+
+
+@media only screen and (max-width: 600px) {
+body{
+     display: block;
+     height: 75vh;
+
+    }
+header img{
+    margin-left: 2em;
+    width: 100px;
+    padding: none;
+    }
+ .list-1{
+    width: 250px;;
+    height: 200px;
+    padding: none;
+    margin-left: 2em;
+ }
+
+.container{
+    display: block ;
+    margin: 0;
+    padding: 10px;
+    }
+
+.info{
+    margin-top: 1px ;
+    display: block;
+    width: 270px;
+    height: 200px;
+    padding: 2em;
+    
+}
+h1{
+    font-weight: 400;
+    font-size: 25px;
+}
+p{  font-weight: 400;
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+}
+.button{
+    text-align: center;
+    margin-left: 2em;
+    margin-top: 1em;
+    font-size: 16px;
+    font-weight: 400;
+    color:hsl(257, 40%, 49%);
+    width: 190px;
+    height: 40px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 3px 3px 10px black;
+}
+.button:hover{
+    background: blueviolet;
+    }
+
+footer{
+    width: 300px;
+    text-align: center;
+    height: 10px;
+    margin-top: 70px;
+}
+
+}
+ 
+

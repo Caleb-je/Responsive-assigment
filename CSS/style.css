@@ -1,0 +1,92 @@
+.head{
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 50px 50px 1fr 50px 60px 40px 50px;
+    grid-template-rows: 50px;
+    grid-template-areas: 
+    "about store . gmail images menu signin ";
+}
+#about{
+    grid-area: about;
+}
+#store{
+    grid-area: store;
+}
+#gmail{
+    grid-area: gmail;
+}
+#images{
+    grid-area: images;
+}
+#menu{
+    grid-area: menu;
+}
+#signin{
+    grid-area: signin;
+}
+
+
+.img{
+    width: 110px;
+  padding-left: 600px;
+}
+
+.searchb{
+    padding-left: 600px;
+    grid-area: center; 
+    width: 500px; 
+    justify-self: center;
+    align-self: center;
+
+}
+.buttons{
+    padding-left: 600px;
+    margin: auto;
+    height: 30px;
+}
+a{
+    text-decoration: none;
+    color:#222;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif ;
+    align-self: center;
+
+}
+footer{
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: 50px;
+   background:#f2f2f2;
+   padding: 0px;
+    grid-area: center;
+    font-size: 14px;
+    display: grid;
+    grid-template-columns:90px 90px 1fr 170px 1fr 130px 100px 200px 100px;
+    grid-template-rows: 90px;
+    grid-template-areas: 
+    "ad bus . hs cab . pr term sett ";
+}
+#ad{
+    grid-area: ad;
+}
+#bus{
+    grid-area: bus;
+}
+#hs{
+    grid-area: hs;
+}
+#cab{
+    grid-area: cab;
+}
+#pr{
+    grid-area: pr;
+}
+#term{
+    grid-area: term;
+}
+#sett{
+    grid-area: sett;
+}

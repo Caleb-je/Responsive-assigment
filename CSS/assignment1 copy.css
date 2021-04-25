@@ -1,0 +1,137 @@
+body{
+
+    font-weight: 400;
+    width: 1440px;
+    min-height: 70vh;
+    background-image: 
+    url(bg-desktop.svg);
+    background-repeat:no-repeat;
+    background-position: ;
+    background-color: hsl(257, 40%, 49%);
+    color: white;
+    display: flex;
+    margin:  0;
+    padding: none;
+    justify-content: center;
+    align-content: center;
+  }
+
+.box-1{
+    width: 1440px;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;  
+    padding: none;
+    margin-left: 5em;
+    
+    
+
+}
+  header{
+    display: flex;
+     padding: 10px;
+  }    
+  
+.container{
+
+   width: 1440px;
+   height: 70vh;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-areas: "b1" "b2 b3";
+   padding: 10px;
+   margin-left: 10px;
+   margin-top: 3em;
+
+  
+  }
+
+.list-1{
+    grid-area: b1;
+      width: 1000px;
+      height: 70vh;
+      align-items: center;
+        
+  }
+.info{
+    margin-top: 2em;
+      grid: b2;
+      width: 440px;
+      display: flex;
+      flex-flow: column wrap;  
+      height: 75vh;
+      padding-left: 40px;
+}
+h1{
+     font-weight: 600;
+     font-family: sans-serif;
+  }
+  p{
+      font-weight: 400;
+      font-family: sans-serif;
+      line-height: 1.5;
+      font-size: 16px;
+  }
+
+.button{
+    margin-top: 1em;
+    font-size: 16px;
+    font-weight: 400;
+    color:hsl(257, 40%, 49%);
+    width: 200px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 3px 3px 10px black;
+    
+}
+.button:hover{
+    background: blueviolet;
+
+    }
+
+footer{
+    grid-area: "b1";     
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end
+
+}
+.Icons{   
+}
+  
+footer .fab{
+    color: white;
+    border: 1px solid white;
+    font-size: 20px;
+    border-radius: 50%;
+
+}
+
+/* mobile screen */
+
+
+@media only screen and (max-width: 600px) {
+
+    header.img{
+    width: 10%;;
+        }
+    .box-1{
+    display: block;
+    }
+    .container{
+    display: block;
+}
+
+    footer{
+    text-align: center;
+    }
+    }
+    @media only screen  and (max-width: 920px){
+
+  header.img{
+    
+  }
+     
+ }
+

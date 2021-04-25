@@ -1,0 +1,42 @@
+body{
+    font-family: Karla , sans-serif;
+}
+/*container */
+#container {
+    width: 95vh;
+    height: 60vh;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    outline: 8px solid #4834d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+ 
+
+}
+
+.item {
+ display: flex;
+ border: 1px  solid #222222;
+ text-align: 1px 2px 3px grey;
+ box-shadow: 8px;
+ color: #222;
+ font-size: 2em;
+ font-family: Arial sans-serif;
+ background-color: #F9D423;
+ font-weight: bold;
+ cursor: pointer;
+}
+ 
+
+.container{
+    align-items: center ;
+    justify-content: center;
+    display: flex;
+    height: 250px;
+    width: 650px;
+    background-color:white;
+    border-radius: 10px;
+
